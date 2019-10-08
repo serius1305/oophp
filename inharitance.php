@@ -61,7 +61,7 @@ class Game extends Produk {
 
 class Komik extends Produk {
 	public function getInfoProduk (){
-		$str ="Komik : {{$this ->judul} | {$this ->getLabel()} (Rp. {$this -> harga})} - {$this->jmHalaman} Halaman. ";
+		$str ="Komik : {$this ->judul} | {$this ->getLabel()} (Rp. {$this -> harga})} - {$this->jmHalaman} Halaman. ";
 
 		return $str;
 
